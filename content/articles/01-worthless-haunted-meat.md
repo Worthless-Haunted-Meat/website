@@ -1,3 +1,10 @@
+---
+title: "Worthless Haunted Meat"
+author: "Ricardo Vega"
+date: "2026-06-03"
+excerpt: "When people say asking for a friend — are they really asking for a friend? Or are they just naming themselves with a little extra room to breathe?"
+---
+
 # Worthless Haunted Meat
 
 *By Ricardo Vega*

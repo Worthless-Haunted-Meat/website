@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-void: #0a0a0a;
+  --color-surface: #111111;
+  --color-border: #222222;
+  --color-cream: #f5f0e8;
+  --color-muted: #888888;
+  --color-crimson: #c0392b;
+  --color-crimson-bright: #e74c3c;
+
+  --font-syne: "Syne", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-void);
+    color: var(--color-cream);
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Skip to content */
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    z-index: 9999;
+    padding: 0.5rem 1rem;
+    background: var(--color-crimson);
+    color: var(--color-cream);
+    font-weight: bold;
+    border-radius: 0 0 0.375rem 0.375rem;
+    transition: top 0.2s;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+
+  /* Focus rings */
+  *:focus-visible {
+    outline: 2px solid var(--color-crimson-bright);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Prose overrides for dark theme */
+.prose {
+  --tw-prose-body: var(--color-cream);
+  --tw-prose-headings: var(--color-cream);
+  --tw-prose-lead: var(--color-muted);
+  --tw-prose-links: var(--color-crimson-bright);
+  --tw-prose-bold: var(--color-cream);
+  --tw-prose-counters: var(--color-muted);
+  --tw-prose-bullets: var(--color-crimson);
+  --tw-prose-hr: var(--color-border);
+  --tw-prose-quotes: var(--color-cream);
+  --tw-prose-quote-borders: var(--color-crimson);
+  --tw-prose-captions: var(--color-muted);
+  --tw-prose-code: var(--color-cream);
+  --tw-prose-pre-code: var(--color-cream);
+  --tw-prose-pre-bg: var(--color-surface);
+  --tw-prose-th-borders: var(--color-border);
+  --tw-prose-td-borders: var(--color-border);
+}
