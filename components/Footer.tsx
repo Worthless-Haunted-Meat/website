@@ -11,7 +11,7 @@ export default function Footer() {
               Worthless Haunted Meat
             </p>
             <p className="text-[#888888] text-sm leading-relaxed">
-              We discover what people love — then we use AI to help them do more
+              We discover what people love — then we use technology to help them do more
               of it, and teach them to bring others along.
             </p>
           </div>

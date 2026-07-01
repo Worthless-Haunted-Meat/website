@@ -10,9 +10,9 @@ I want to ask you something, and I want to be completely straight with you about
 
 I run a nonprofit called Worthless Haunted Meat. The name is intentional. It's a statement about what happens to people when the economy decides it's done with them — and a dare to do something about it.
 
-Our mission: *We discover what people love — then we use AI to help them do more of it, and teach them to bring others along.*
+Our mission: *We discover what people love — then we use technology to help them do more of it, and teach them to bring others along.*
 
-That's it. We're not a charity in the traditional sense. We're a group of people who believe AI is the most powerful tool ever built — and that right now, almost all of that power is flowing toward people who already have everything. We want to change that. One person, one community, one skill set at a time. Teachers who love teaching but drown in paperwork. Developers who want to build things that matter. Communities that have been written off. We find what people love and we use technology to give them more of it — then we teach them to pass it on.
+That's it. We're not a charity in the traditional sense. We're a group of people who believe that rapidly developing technology — AI in particular — is the most powerful tool ever built, and that right now, almost all of that power is flowing toward people who already have everything. We want to change that. One person, one community, one skill set at a time. Teachers who love teaching but drown in paperwork. Developers who want to build things that matter. Communities that have been written off. We find what people love and we use technology to give them more of it — then we teach them to pass it on.
 
 I'd like you on the board.
 

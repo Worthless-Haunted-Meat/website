@@ -77,7 +77,7 @@ export default async function ArticleSlugPage({ params }: Props) {
       <section className="py-16 border-t border-[#222222] bg-[#111111]">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <p className="font-syne font-bold text-[#f5f0e8] text-2xl mb-4">
-            We discover what people love — then we use AI to help them do more
+            We discover what people love — then we use technology to help them do more
             of it, and teach them to bring others along.
           </p>
           <Link

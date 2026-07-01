@@ -57,7 +57,7 @@ The name isn't a joke. It's not even really a provocation.
 
 It's a description.
 
-It's what capitalism does to humans when it's finished with them. When your labor stops being profitable, when you age out of usefulness, when AI learns to do your job faster and cheaper — you become worthless haunted meat. Biological. Expensive. Inconvenient.
+It's what capitalism does to humans when it's finished with them. When your labor stops being profitable, when you age out of usefulness, when technology learns to do your job faster and cheaper — you become worthless haunted meat. Biological. Expensive. Inconvenient.
 
 That's not a future. That's already happening. To people I know. To people you know. To entire communities that the economy decided it was done with.
 
@@ -71,17 +71,17 @@ And the people who already had money captured almost all of it.
 
 Not because they were evil. Because capital moves faster than people. Because if you already have resources you can adopt the new thing first, build on top of it first, pull away from the pack before anyone else has figured out what's happening.
 
-AI is the latest version of this story. And it's the most dangerous one yet. Because every previous superpower still needed human labor to run it. Factories needed workers. Railroads needed conductors. The internet needed developers.
+Rapidly developing technology — AI most of all — is the latest version of this story. And it's the most dangerous one yet. Because every previous superpower still needed human labor to run it. Factories needed workers. Railroads needed conductors. The internet needed developers.
 
-AI is the first amplification event that can eat its own workforce.
+This new wave is the first amplification event that can eat its own workforce.
 
 ---
 
 But here's where my friend refuses to accept the ending everyone else seems to be writing.
 
-AI is a tool. The most powerful tool humans have ever built. And tools don't have loyalties. They go where you point them.
+Technology is a tool. The most powerful tool humans have ever built. And tools don't have loyalties. They go where you point them.
 
-So the question isn't whether AI will change everything — it will. The question is: *who are we pointing it at?*
+So the question isn't whether it will change everything — it will. The question is: *who are we pointing it at?*
 
 Right now, mostly at profit. At efficiency. At eliminating the cost of human labor from the balance sheet.
 
@@ -89,7 +89,7 @@ But what if we pointed it at teachers buried in paperwork they hate, serving kid
 
 That's what Worthless Haunted Meat is.
 
-Our mission is simple: we discover what people love — then we use AI to help them do more of it, and teach them to bring others along.
+Our mission is simple: we discover what people love — then we use technology to help them do more of it, and teach them to bring others along.
 
 It's not charity. It's not a tech company. It's a dare.
 

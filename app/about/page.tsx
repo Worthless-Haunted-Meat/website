@@ -46,7 +46,7 @@ export default function AboutPage() {
               <div className="flex flex-col gap-4 text-[#888888] leading-relaxed">
                 <p>
                   When your labor stops being profitable — when you age out of
-                  usefulness, when AI learns to do your job faster and cheaper
+                  usefulness, when technology learns to do your job faster and cheaper
                   — you become worthless haunted meat. Biological. Expensive.
                   Inconvenient.
                 </p>
@@ -90,11 +90,12 @@ export default function AboutPage() {
                   else figures out what&apos;s happening.
                 </p>
                 <p>
-                  AI is the latest version of this story. And it&apos;s the most
-                  dangerous one yet. Because every previous superpower still
-                  needed human labor. Factories needed workers. The internet
-                  needed developers. AI is the first amplification event that can
-                  eat its own workforce.
+                  Rapidly developing technology — AI most of all — is the latest
+                  version of this story. And it&apos;s the most dangerous one yet.
+                  Because every previous superpower still needed human labor.
+                  Factories needed workers. The internet needed developers.
+                  This new wave is the first amplification event that can eat
+                  its own workforce.
                 </p>
               </div>
             </div>
@@ -104,7 +105,7 @@ export default function AboutPage() {
           <Reveal>
             <blockquote className="border-l-2 border-[#c0392b] pl-8 py-2">
               <p className="font-syne font-bold text-[#e74c3c] text-2xl leading-tight">
-                &ldquo;AI is a tool. The most powerful tool humans have ever built.
+                &ldquo;Technology is a tool. The most powerful tool humans have ever built.
                 And tools don&apos;t have loyalties. They go where you point them.&rdquo;
               </p>
             </blockquote>
@@ -122,7 +123,7 @@ export default function AboutPage() {
               </h2>
               <div className="flex flex-col gap-4 text-[#888888] leading-relaxed">
                 <p>
-                  What if we pointed AI at teachers buried in paperwork they
+                  What if we pointed technology at teachers buried in paperwork they
                   hate, serving kids who need them present and human and there?
                   What if we pointed it at communities with excess food rotting
                   in restaurant kitchens while people three blocks away go hungry?
@@ -153,7 +154,7 @@ export default function AboutPage() {
                 className="font-syne font-bold text-[#f5f0e8] leading-tight"
                 style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
               >
-                We discover what people love — then we use AI to help them do
+                We discover what people love — then we use technology to help them do
                 more of it, and teach them to bring others along.
               </p>
             </div>

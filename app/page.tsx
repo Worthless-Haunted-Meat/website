@@ -26,7 +26,7 @@ export default function HomePage() {
             <TextGenerateEffect words="Worthless Haunted Meat" />
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-[#888888] leading-relaxed">
-            We discover what people love — then we use AI to help them do more
+            We discover what people love — then we use technology to help them do more
             of it, and teach them to bring others along.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
@@ -60,7 +60,7 @@ export default function HomePage() {
             </p>
             <blockquote className="font-syne font-bold text-[#e74c3c] leading-tight max-w-4xl mx-auto"
               style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}>
-              &ldquo;We discover what people love — then we use AI to help them do more
+              &ldquo;We discover what people love — then we use technology to help them do more
               of it, and teach them to bring others along.&rdquo;
             </blockquote>
           </Reveal>
@@ -97,8 +97,8 @@ export default function HomePage() {
             <Reveal delay={0.2}>
               <ProgramCard
                 icon={Cpu}
-                title="AI Amplification"
-                description="We take what people already love and use AI to multiply it — then teach them to pass that power on to others."
+                title="Technology Amplification"
+                description="We take what people already love and use technology to multiply it — then teach them to pass that power on to others."
               />
             </Reveal>
           </div>
@@ -114,8 +114,9 @@ export default function HomePage() {
             </p>
             <blockquote className="font-syne font-bold text-[#f5f0e8] text-center max-w-3xl mx-auto leading-tight"
               style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}>
-              &ldquo;AI is the first amplification event that can eat its own workforce.
-              The question isn&apos;t whether AI will change everything — it will.
+              &ldquo;Rapidly developing technology — AI in particular — is the first
+              amplification event that can eat its own workforce.
+              The question isn&apos;t whether it will change everything — it will.
               The question is:{" "}
               <em className="text-[#e74c3c] not-italic">
                 who are we pointing it at?
