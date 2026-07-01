@@ -109,9 +109,10 @@ Google Drive folders:
 
 | Asset | Location |
 |---|---|
-| `.com` site (local) | `/Users/admin/Dev/Noctusoft/WebSite/worthlesshauntedmeat.com` |
-| `.org` portal (WordPress) | `/Users/admin/Dev/Noctusoft/WebSite/worthlesshauntedmeat.org/portal` |
+| Primary site (Next.js, Vercel) | `/Users/admin/Dev/WorthlessHauntedMeat` — serves both `.com` and `.org` |
 | TechSoup membership | `worthlesshauntedmeat@gmail.com` (nonprofit tech discounts available) |
+
+> Legacy `.com` (empty cgi-bin) and `.org/portal` (WordPress) local dirs were removed 2026-06-25. Both domains should be pointed at the Vercel deployment.
 
 ---
 
