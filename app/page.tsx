@@ -105,6 +105,71 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Our Approach — AI is one tool of many */}
+      <section className="py-24 md:py-32 border-t border-[#222222]">
+        <div className="max-w-6xl mx-auto px-6">
+          <Reveal>
+            <p className="text-xs font-medium tracking-widest uppercase text-[#888888] mb-3">
+              Our Approach
+            </p>
+            <h2
+              className="font-syne font-bold text-[#f5f0e8] mb-10"
+              style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}
+            >
+              AI Is One Tool. We Use All of Them.
+            </h2>
+          </Reveal>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+            <div className="lg:col-span-3 flex flex-col gap-6 text-[#888888] leading-relaxed text-lg">
+              <Reveal>
+                <p>
+                  There is a lot of noise about AI right now — some of it warranted, some of it exhausting. Here is where we stand.
+                </p>
+              </Reveal>
+              <Reveal delay={0.05}>
+                <p>
+                  AI is one of the most powerful tools ever built, and we are not going to pretend otherwise. When it fits the problem, we use it. When it does not, we use whatever does.
+                </p>
+              </Reveal>
+              <Reveal delay={0.1}>
+                <p>
+                  Our work runs on mobile logistics, community platforms, service-hour and donor-benefit tracking, mapping and routing, plain databases — and sometimes a good spreadsheet. AI shows up where it multiplies human effort. It does not show up because it is fashionable.
+                </p>
+              </Reveal>
+              <Reveal delay={0.15}>
+                <p className="text-[#f5f0e8]">
+                  We are not an AI charity. We are a coalition that uses whichever technology fits the person we are trying to help — starting with the ones that already work.
+                </p>
+              </Reveal>
+            </div>
+            <Reveal delay={0.1}>
+              <div className="lg:col-span-2 border border-[#222222] rounded-lg p-8 bg-[#111111]">
+                <p className="text-xs font-medium tracking-widest uppercase text-[#888888] mb-6">
+                  The Toolkit
+                </p>
+                <ul className="flex flex-col gap-4 text-[#888888] text-sm leading-relaxed list-none">
+                  <li>
+                    <span className="text-[#f5f0e8] font-medium">Mobile &amp; logistics</span> — the food-redistribution app that connects restaurants, shelters, and volunteers
+                  </li>
+                  <li>
+                    <span className="text-[#f5f0e8] font-medium">Community platforms</span> — how volunteers coordinate, how donors show up
+                  </li>
+                  <li>
+                    <span className="text-[#f5f0e8] font-medium">Data infrastructure</span> — tracking service hours, donor write-offs, and program impact
+                  </li>
+                  <li>
+                    <span className="text-[#f5f0e8] font-medium">AI, where it fits</span> — cutting paperwork, matching supply with need, and giving skilled people leverage
+                  </li>
+                  <li>
+                    <span className="text-[#f5f0e8] font-medium">Whatever else works</span> — including the boring, unglamorous tools that quietly do the job
+                  </li>
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
       {/* Pull quote */}
       <section className="py-24 md:py-32 bg-[#111111] border-y border-[#222222]">
         <div className="max-w-6xl mx-auto px-6">
