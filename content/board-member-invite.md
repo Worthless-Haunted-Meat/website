@@ -12,7 +12,9 @@ I run a nonprofit called Worthless Haunted Meat. The name is intentional. It's a
 
 Our mission: *We discover what people love — then we use technology to help them do more of it, and teach them to bring others along.*
 
-That's it. We're not a charity in the traditional sense. We're a group of people who believe that rapidly developing technology — AI in particular — is the most powerful tool ever built, and that right now, almost all of that power is flowing toward people who already have everything. We want to change that. One person, one community, one skill set at a time. Teachers who love teaching but drown in paperwork. Developers who want to build things that matter. Communities that have been written off. We find what people love and we use technology to give them more of it — then we teach them to pass it on.
+That's it. We're not a charity in the traditional sense. We're a small group of people who believe that rapidly developing technology — AI in particular — is the most powerful tool ever built, and that right now, almost all of that power is flowing toward people who already have everything. We want to change that. One person, one community, one skill set at a time. Teachers who love teaching but drown in paperwork. Developers who want to build things that matter. Communities that have been written off. We find what people love and we use technology to give them more of it — then we teach them to pass it on.
+
+**Here's where things stand honestly.** Right now I'm the only director. Texas nonprofit law requires three. That means without two more people willing to sit on this board, Worthless Haunted Meat can't continue — the 501(c)(3), the mission, the plans, all of it either finds its next chapter with a real board, or it winds down. I'd rather it find its next chapter, and I'd rather that include you.
 
 I'd like you on the board.
 

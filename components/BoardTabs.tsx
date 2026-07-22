@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 const tabs = [
   { href: "/board", label: "Invitation" },
   { href: "/board/risks", label: "Risks & Responsibilities" },
+  { href: "/board/documents", label: "Documents" },
 ];
 
 export default function BoardTabs({ activeHref }: { activeHref: string }) {

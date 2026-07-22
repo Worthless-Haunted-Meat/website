@@ -209,7 +209,7 @@ export default function BoardRisksPage() {
               <li>— Zero pending or threatened litigation</li>
               <li>— No personal guarantees on any contract</li>
               <li>— Tax-exempt status current with the IRS</li>
-              <li>— Annual filings up to date (990-N e-Postcard, TX Franchise Tax)</li>
+              <li>— Annual filings (990-N e-Postcard, TX Franchise Tax) being confirmed current — status shared openly with the board</li>
             </ul>
             <p className="text-[#888888] leading-relaxed mt-6">
               This will change as the organization grows. When we take on

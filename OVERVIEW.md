@@ -26,16 +26,14 @@
 | Name | Role | Term Expires |
 |---|---|---|
 | Ricardo Vega Jr. | Director / Executive Director | March 2027 |
-| Dylan Vega | Chief Technology Officer | March 2027 |
-| Carri Pluskey | Secretary-Treasurer | March 2027 |
 
-> **Note:** Bylaws set board member terms at 3 years. Terms for Ricardo and Dylan expire ~March 2027. Check bylaws for secondary term provisions before then.
+> **Status (2026-07-03):** Carri Pluskey and Dylan Vega removed from the board. Ricardo remains as sole director. Texas nonprofit law requires a minimum of 3 directors — the org is below the required board size and needs to recruit at least 2 new directors (or begin dissolution).
 
 ---
 
 ## Mission Statement
 
-**We discover what people love — then we use AI to help them do more of it, and teach them to bring others along.**
+**We discover what people love — then we use technology to help them do more of it, and teach them to bring others along.**
 
 ---
 
@@ -72,8 +70,8 @@ All original docs are in Google Drive. Key files:
 | WHM Org Info (Obsidian export) | `18PMfA-qVRHYu8qtGRoyqXzLq2cvFRQ6q` |
 
 Google Drive folders:
-- **WHM docs** (Carri's folder): `1P_dqKAVUAMx2WVyG0ya9ieCstBwvCBtl`
-- **Worthless Haunted Meat docs** (Carri's copy): `1R_DyUbnkSCtFKtX9UK9NjM2Et1ZHOfBG`
+- **WHM docs** (Drive folder): `1P_dqKAVUAMx2WVyG0ya9ieCstBwvCBtl`
+- **Worthless Haunted Meat docs** (Drive folder): `1R_DyUbnkSCtFKtX9UK9NjM2Et1ZHOfBG`
 
 ---
 

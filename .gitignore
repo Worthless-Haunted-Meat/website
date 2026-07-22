@@ -41,3 +41,6 @@ logs/
 *.log
 .vercel
 .env*.local
+
+# Nested repo — separate GitHub project
+EpochRaw/
