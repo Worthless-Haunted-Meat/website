@@ -44,3 +44,6 @@ logs/
 
 # Nested repo — separate GitHub project
 EpochRaw/
+
+# Local credentials note (Obsidian) — never commit
+WHM-Credentials.md
