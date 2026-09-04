@@ -26,6 +26,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://worthlesshauntedmeat.org"),
   title: {
     default: "Worthless Haunted Meat",
     template: "%s | Worthless Haunted Meat",

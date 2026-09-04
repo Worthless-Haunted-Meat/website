@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/articles", label: "Articles" },
   { href: "/join", label: "Join" },
+  { href: "/donate", label: "Donate" },
 ];
 
 export default function Nav() {

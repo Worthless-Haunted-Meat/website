@@ -241,12 +241,20 @@ export default function HomePage() {
               Not from us. Join the coalition and help us point the most
               powerful technology ever built at the people who need it most.
             </p>
-            <Link
-              href="/join"
-              className="inline-flex items-center bg-[#c0392b] hover:bg-[#e74c3c] text-[#f5f0e8] font-bold px-10 py-4 rounded-md transition-colors min-h-[44px]"
-            >
-              Join the Coalition
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/join"
+                className="inline-flex items-center justify-center bg-[#c0392b] hover:bg-[#e74c3c] text-[#f5f0e8] font-bold px-10 py-4 rounded-md transition-colors min-h-[44px]"
+              >
+                Join the Coalition
+              </Link>
+              <Link
+                href="/donate"
+                className="inline-flex items-center justify-center border border-[#222222] hover:border-[#e74c3c] text-[#f5f0e8] font-bold px-10 py-4 rounded-md transition-colors min-h-[44px]"
+              >
+                Donate
+              </Link>
+            </div>
           </Reveal>
         </div>
       </section>

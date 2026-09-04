@@ -27,6 +27,8 @@ export default function Footer() {
                 { href: "/about", label: "About" },
                 { href: "/articles", label: "Articles" },
                 { href: "/join", label: "Join the Coalition" },
+                { href: "/donate", label: "Donate" },
+                { href: "/privacy", label: "Privacy Policy" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -78,12 +80,20 @@ export default function Footer() {
           <p className="text-xs text-[#888888]">
             © {new Date().getFullYear()} Worthless Haunted Meat. A Texas 501(c)(3) nonprofit corporation.
           </p>
-          <Link
-            href="/board"
-            className="text-xs text-[#888888] hover:text-[#e74c3c] transition-colors"
-          >
-            Board Portal
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/privacy"
+              className="text-xs text-[#888888] hover:text-[#e74c3c] transition-colors"
+            >
+              Privacy
+            </Link>
+            <Link
+              href="/board"
+              className="text-xs text-[#888888] hover:text-[#e74c3c] transition-colors"
+            >
+              Board Portal
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
