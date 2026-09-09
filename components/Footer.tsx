@@ -70,6 +70,11 @@ export default function Footer() {
               <li className="text-[#888888]">
                 501(c)(3) Tax-Exempt
               </li>
+              <li className="text-[#888888]">
+                5473 Blair Rd Ste 100, PMB 424261
+                <br />
+                Dallas, TX 75231-4227
+              </li>
             </ul>
           </div>
         </div>
