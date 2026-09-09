@@ -84,6 +84,7 @@ export default function HomePage() {
               <ProgramCard
                 icon={Users}
                 title="Community Engagement"
+                href="/programs/community-engagement"
                 description="We listen first. Surveys, conversations, and direct community input shape how we allocate resources and where we build."
               />
             </Reveal>
@@ -91,6 +92,7 @@ export default function HomePage() {
               <ProgramCard
                 icon={Utensils}
                 title="Resource Distribution"
+                href="/programs/resource-distribution"
                 description="A mobile platform connecting restaurants and businesses with shelters and individuals — an Amazon+Uber hybrid powered by community volunteers."
               />
             </Reveal>
@@ -98,6 +100,7 @@ export default function HomePage() {
               <ProgramCard
                 icon={Cpu}
                 title="Technology Amplification"
+                href="/programs/technology-amplification"
                 description="We take what people already love and use technology to multiply it — then teach them to pass that power on to others."
               />
             </Reveal>

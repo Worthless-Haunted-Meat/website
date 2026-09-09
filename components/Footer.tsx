@@ -25,9 +25,11 @@ export default function Footer() {
               {[
                 { href: "/", label: "Home" },
                 { href: "/about", label: "About" },
+                { href: "/programs", label: "Programs" },
                 { href: "/articles", label: "Articles" },
                 { href: "/join", label: "Join the Coalition" },
                 { href: "/donate", label: "Donate" },
+                { href: "/contact", label: "Contact" },
                 { href: "/privacy", label: "Privacy Policy" },
               ].map((link) => (
                 <li key={link.href}>
