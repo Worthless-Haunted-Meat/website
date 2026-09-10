@@ -2,6 +2,8 @@
 title: "Nobody's Job: The Function No City Ever Funded"
 author: "Ricardo Vega"
 date: "2026-09-02"
+series: "Nobody's Job"
+part: 2
 excerpt: "Start with a man I'll call Dale, because that isn't his name."
 ---
 

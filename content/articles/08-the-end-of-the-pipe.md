@@ -2,6 +2,8 @@
 title: "The End of the Pipe"
 author: "Ricardo Vega"
 date: "2026-09-08"
+series: "Nobody's Job"
+part: 7
 excerpt: "Food out of a dumpster, into a crate, into a car at midnight, and then — where?"
 ---
 

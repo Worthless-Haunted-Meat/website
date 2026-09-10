@@ -12,6 +12,8 @@ export interface ArticleMeta {
   author: string;
   date: string;
   excerpt: string;
+  series: string | null;
+  part: number | null;
 }
 
 export interface Article extends ArticleMeta {
@@ -51,6 +53,8 @@ export function getAllArticles(): ArticleMeta[] {
       author: data.author ?? "Ricardo Vega",
       date: data.date ?? "",
       excerpt: data.excerpt ?? extractFirstParagraph(content),
+      series: (data.series as string) ?? null,
+      part: typeof data.part === "number" ? data.part : null,
     };
   });
 
@@ -78,6 +82,8 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
     author: data.author ?? "Ricardo Vega",
     date: data.date ?? "",
     excerpt: data.excerpt ?? extractFirstParagraph(content),
+    series: (data.series as string) ?? null,
+    part: typeof data.part === "number" ? data.part : null,
     contentHtml,
   };
 }

@@ -2,6 +2,8 @@
 title: "The Dumpster Math"
 author: "Ricardo Vega"
 date: "2026-09-03"
+series: "Nobody's Job"
+part: 3
 excerpt: "Eleven fifteen at night, behind a strip mall you've driven past a thousand times."
 ---
 

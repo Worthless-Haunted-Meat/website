@@ -2,6 +2,8 @@
 title: "Nobody's Job"
 author: "Ricardo Vega"
 date: "2026-09-01"
+series: "Nobody's Job"
+part: 1
 excerpt: "Two curves cross, and everything else in this series follows from it."
 ---
 

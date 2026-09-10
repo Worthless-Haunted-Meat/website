@@ -2,6 +2,8 @@
 title: "Runners"
 author: "Ricardo Vega"
 date: "2026-09-06"
+series: "Nobody's Job"
+part: 6
 excerpt: "Two in the morning, and the man in the driver's seat has been sober for nine weeks."
 ---
 

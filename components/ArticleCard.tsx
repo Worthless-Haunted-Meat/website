@@ -20,9 +20,9 @@ export default function ArticleCard({ article }: ArticleCardProps) {
       href={`/articles/${article.slug}`}
       className="group block bg-[#111111] border border-[#222222] rounded-lg p-8 hover:border-[#e74c3c] transition-colors"
     >
-      {formattedDate && (
+      {(article.part || formattedDate) && (
         <p className="text-xs font-medium tracking-widest uppercase text-[#888888] mb-3">
-          {formattedDate}
+          {article.part ? `Part ${article.part}` : formattedDate}
         </p>
       )}
       <h2 className="font-syne font-bold text-xl text-[#f5f0e8] mb-3 group-hover:text-[#e74c3c] transition-colors">

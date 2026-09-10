@@ -2,6 +2,8 @@
 title: "On Worth"
 author: "Ricardo Vega"
 date: "2026-09-09"
+series: "Nobody's Job"
+part: 8
 excerpt: "The name of this organisation is Worthless Haunted Meat. People find it distasteful, which is the point."
 ---
 

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
-import { getArticleBySlug, getAllArticleSlugs } from "@/lib/articles";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { getArticleBySlug, getAllArticleSlugs, getAllArticles } from "@/lib/articles";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -27,6 +27,15 @@ export default async function ArticleSlugPage({ params }: Props) {
   const article = await getArticleBySlug(slug);
   if (!article) notFound();
 
+  const siblings = article.series
+    ? getAllArticles()
+        .filter((a) => a.series === article.series)
+        .sort((a, b) => (a.part ?? 0) - (b.part ?? 0))
+    : [];
+  const idx = siblings.findIndex((a) => a.slug === article.slug);
+  const prev = idx > 0 ? siblings[idx - 1] : null;
+  const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
+
   const formattedDate = article.date
     ? new Date(article.date).toLocaleDateString("en-US", {
         year: "numeric",
@@ -47,9 +56,17 @@ export default async function ArticleSlugPage({ params }: Props) {
             All articles
           </Link>
 
-          {formattedDate && (
+          {(article.series || formattedDate) && (
             <p className="text-xs font-medium tracking-widest uppercase text-[#888888] mb-4">
-              {formattedDate}
+              {article.series ? (
+                <>
+                  <span className="text-[#e74c3c]">{article.series}</span>
+                  {article.part ? ` · Part ${article.part} of ${siblings.length}` : ""}
+                  {formattedDate ? ` · ${formattedDate}` : ""}
+                </>
+              ) : (
+                formattedDate
+              )}
             </p>
           )}
 
@@ -72,6 +89,39 @@ export default async function ArticleSlugPage({ params }: Props) {
           />
         </div>
       </section>
+
+      {(prev || next) && (
+        <section className="py-10 border-t border-[#222222]">
+          <div className="max-w-3xl mx-auto px-6 flex flex-col sm:flex-row justify-between gap-4">
+            {prev ? (
+              <Link
+                href={`/articles/${prev.slug}`}
+                className="group flex items-center gap-3 text-sm text-[#888888] hover:text-[#e74c3c] transition-colors min-h-[44px]"
+              >
+                <ArrowLeft size={14} strokeWidth={1.5} aria-hidden="true" />
+                <span>
+                  <span className="block text-xs uppercase tracking-widest mb-1">Previous</span>
+                  <span className="text-[#f5f0e8] group-hover:text-[#e74c3c] transition-colors">{prev.title}</span>
+                </span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next && (
+              <Link
+                href={`/articles/${next.slug}`}
+                className="group flex items-center gap-3 text-sm text-[#888888] hover:text-[#e74c3c] transition-colors text-right sm:ml-auto min-h-[44px]"
+              >
+                <span>
+                  <span className="block text-xs uppercase tracking-widest mb-1">Next in series</span>
+                  <span className="text-[#f5f0e8] group-hover:text-[#e74c3c] transition-colors">{next.title}</span>
+                </span>
+                <ArrowRight size={14} strokeWidth={1.5} aria-hidden="true" />
+              </Link>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="py-16 border-t border-[#222222] bg-[#111111]">
