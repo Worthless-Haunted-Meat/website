@@ -29,7 +29,7 @@ Everything we currently do happens downstream of the crossing point. Shelters, o
 
 You can't hire a million watchful neighbours, and that isn't the proposal. The old web did two things: it noticed, and it routed. Someone saw you were in trouble; someone knew where the spare room was, the odd job, who had too much of what you didn't have enough of. Noticing and routing are information problems — the one class of problem we've gotten dramatically better at in twenty years, and haven't pointed at this.
 
-Five pieces make the case.
+Seven pieces make the case.
 
 [The missing function](/articles/the-function-no-city-ever-funded) is the argument you've just read, told through one man and fourteen months in which he met a dozen competent professionals and not one whose job he was.
 
@@ -37,10 +37,14 @@ Five pieces make the case.
 
 [The tenth of a percent](/articles/the-tenth-of-a-percent) is the part that should make you angry. Across a hundred and fifteen California cities, about one in a thousand registered voters speaks at a council meeting in a year. Those who do skew older, whiter, more male, more likely to own their home. On affordable housing, they skew toward opposition. Our one formal channel for reading a neighbourhood's will is quiet and tilted against exactly what we need to route. Every backlash traces here. We never asked.
 
+[What I almost built](/articles/what-i-almost-built) is the fix I nearly shipped for that, and why it was worse than the problem. Reach everyone else on their phones, provoke them with disgust, harvest the taps. If you provoke with disgust, you measure disgust. The honest question is about the waste, not about the people.
+
 [The runners and the ledger](/articles/runners) is the machine. Providers set surplus aside instead of binning it. Runners collect and deliver. Software dispatches, timestamps the handoff, logs the hours — turning the documentation burden that kills most donation programmes into a by-product. The provider gets an auditable record. Nobody chases a signature.
 
-[The end of the pipe](/articles/the-end-of-the-pipe) is the same question as the third. Food lands somewhere, and where it lands is where people come — so it should be somewhere with sanitation, counselling, whatever that neighbourhood decided it wanted, sited where they agreed. Not done to them. Chosen by them. That's not sentiment; it's the only version that survives a council vote.
+[The end of the pipe](/articles/the-end-of-the-pipe) is the same question as the tenth of a percent. Food lands somewhere, and where it lands is where people come — so it should be somewhere with sanitation, counselling, whatever that neighbourhood decided it wanted, sited where they agreed. Not done to them. Chosen by them. That's not sentiment; it's the only version that survives a council vote.
 
-One argument underneath all five: the resources exist, the will probably exists, and what's missing is the routing — because catching people was never anybody's job.
+[On worth](/articles/on-worth) is the one underneath the rest. We run on an unspoken definition of human worth — what you provide — and people surviving outside provide plenty, in a currency our ledger doesn't record. Who you think you're serving decides what you build.
+
+One argument underneath all seven: the resources exist, the will probably exists, and what's missing is the routing — because catching people was never anybody's job.
 
 I'm going to try to make it mine.

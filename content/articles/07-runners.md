@@ -25,7 +25,7 @@ Start with the provider, because that's where every surplus programme dies. I sa
 
 Concretely: a designated spot. Not the bin, not the loading dock in general — a specific crate or a specific shelf in the walk-in, agreed once, and after that it's muscle memory. The manager doesn't call anyone. He doesn't negotiate a pickup window or vet a stranger. He puts food in the spot and taps once to say roughly how much is there. Done. Everything after that is somebody else's problem, which is the only version a person at the end of a ten-hour shift will actually do more than twice.
 
-Then dispatch. The radius is not a design choice, it's arithmetic — the decay curve from the last piece sets it. Whoever can get there fastest inside a range short enough that the food arrives as food. Which means the system is not a fleet. It's a lot of people who happen to be near, with an empty back seat, at an hour when almost nothing else is moving. Eleven at night is the worst time to schedule a workforce and the best time to find one, because the people awake then are awake anyway.
+Then dispatch. The radius is not a design choice, it's arithmetic — the decay curve from the dumpster math sets it. Whoever can get there fastest inside a range short enough that the food arrives as food. Which means the system is not a fleet. It's a lot of people who happen to be near, with an empty back seat, at an hour when almost nothing else is moving. Eleven at night is the worst time to schedule a workforce and the best time to find one, because the people awake then are awake anyway.
 
 Now the part I think nobody's built, and the reason this piece is named after them.
 
@@ -57,4 +57,4 @@ The runner is not a gig worker and the system must never drift into treating him
 
 That's not sentimentality bolted onto a logistics platform. It's the entire thesis of this series in miniature. The catching function is what we never built. Building a dispatch system that quietly drops people is rebuilding the thing that failed, with better tooling.
 
-So: food that would have been binned, moved by people who needed to be moving, to a place I haven't described yet — and that place is the last piece, because where the pipe ends is the same question as who gets to decide, and that's where all of this has been heading.
+So: food that would have been binned, moved by people who needed to be moving, to a place I haven't described yet — and that place is the next piece, because where the pipe ends is the same question as who gets to decide, and that's where all of this has been heading.

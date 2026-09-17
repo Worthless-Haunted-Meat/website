@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.title,
     description: article.excerpt,
+    ...(article.originalUrl && { alternates: { canonical: article.originalUrl } }),
   };
 }
 
@@ -78,6 +79,18 @@ export default async function ArticleSlugPage({ params }: Props) {
           </h1>
 
           <p className="text-sm text-[#888888]">By {article.author}</p>
+          {article.originalUrl && (
+            <p className="text-sm text-[#888888] mt-2">
+              Originally published on{" "}
+              <a
+                href={article.originalUrl}
+                className="text-[#e74c3c] hover:underline"
+                rel="noopener"
+              >
+                {article.originalSource ?? "the author's site"}
+              </a>
+            </p>
+          )}
         </div>
       </section>
 

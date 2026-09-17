@@ -41,7 +41,7 @@ One person is achievable this month. And one person actually earning from the th
 
 Now, why does this belong in a nonprofit about homelessness and food?
 
-Because it's the same failure, further upstream. This whole series is about the catching function — the thing small towns did for free, that cities stopped doing, that nobody was ever assigned. A man loses his work, and the loop that connected his effort to a reward breaks, and there's no department whose job it is to notice.
+Because it's the same failure, further upstream. The Nobody's Job series is about the catching function — the thing small towns did for free, that cities stopped doing, that nobody was ever assigned. A man loses his work, and the loop that connected his effort to a reward breaks, and there's no department whose job it is to notice.
 
 But he didn't lose his usefulness when he lost his job. Mr. M is exactly as good at coaching the day after driving stops paying as the day before. What he lost was the only channel he had for converting what he can do into what he needs. Catching him doesn't mean finding him a shelter. It means finding the second channel before he needs the first.
 

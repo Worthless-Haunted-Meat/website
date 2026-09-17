@@ -14,6 +14,8 @@ export interface ArticleMeta {
   excerpt: string;
   series: string | null;
   part: number | null;
+  originalUrl: string | null;
+  originalSource: string | null;
 }
 
 export interface Article extends ArticleMeta {
@@ -23,6 +25,11 @@ export interface Article extends ArticleMeta {
 function extractFirstH1(content: string): string {
   const match = content.match(/^#\s+(.+)$/m);
   return match ? match[1].trim() : "Untitled";
+}
+
+// Article files open with their own "# Title", "*By …*" byline and rule; the article page renders those itself.
+function stripLeadingHeader(content: string): string {
+  return content.replace(/^\s*#\s+.+\n+(?:\*By [^*\n]+\*\s*\n+)?(?:-{3,}[ \t]*\n+)?/, "");
 }
 
 function extractFirstParagraph(content: string): string {
@@ -52,9 +59,11 @@ export function getAllArticles(): ArticleMeta[] {
       title: data.title ?? extractFirstH1(content),
       author: data.author ?? "Ricardo Vega",
       date: data.date ?? "",
-      excerpt: data.excerpt ?? extractFirstParagraph(content),
+      excerpt: data.excerpt ?? extractFirstParagraph(stripLeadingHeader(content)),
       series: (data.series as string) ?? null,
       part: typeof data.part === "number" ? data.part : null,
+      originalUrl: (data.originalUrl as string) ?? null,
+      originalSource: (data.originalSource as string) ?? null,
     };
   });
 
@@ -73,7 +82,7 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  const processed = await remark().use(remarkHtml, { sanitize: false }).process(content);
+  const processed = await remark().use(remarkHtml, { sanitize: false }).process(stripLeadingHeader(content));
   const contentHtml = processed.toString();
 
   return {
@@ -81,9 +90,11 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
     title: data.title ?? extractFirstH1(content),
     author: data.author ?? "Ricardo Vega",
     date: data.date ?? "",
-    excerpt: data.excerpt ?? extractFirstParagraph(content),
+    excerpt: data.excerpt ?? extractFirstParagraph(stripLeadingHeader(content)),
     series: (data.series as string) ?? null,
     part: typeof data.part === "number" ? data.part : null,
+    originalUrl: (data.originalUrl as string) ?? null,
+    originalSource: (data.originalSource as string) ?? null,
     contentHtml,
   };
 }

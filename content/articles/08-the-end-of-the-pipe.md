@@ -21,11 +21,11 @@ Here's what I mean. Right now, in your city, the resources are scattered and the
 
 Vectorise the resources and you get an address.
 
-That's the actual function of the fifth piece of this system. If surplus reliably lands at a known place at a known hour, then people are at that place at that hour — not because anyone was moved, but because that's where the food is. And once there's a location and a time, everything that was previously impossible becomes merely difficult. A nurse can come on Thursdays. A caseworker can hold hours. A shower trailer has somewhere to park. You can put a toilet there, and the toilet gets used, which sounds trivial and isn't — the absence of a bathroom is one of the fastest ways a person stops being able to exist in public, and public existence is the precondition for everything recoverable.
+That's the actual function of the last stage of this system. If surplus reliably lands at a known place at a known hour, then people are at that place at that hour — not because anyone was moved, but because that's where the food is. And once there's a location and a time, everything that was previously impossible becomes merely difficult. A nurse can come on Thursdays. A caseworker can hold hours. A shower trailer has somewhere to park. You can put a toilet there, and the toilet gets used, which sounds trivial and isn't — the absence of a bathroom is one of the fastest ways a person stops being able to exist in public, and public existence is the precondition for everything recoverable.
 
 I want to be careful with this, because the sentence next door to mine is an ugly one. "Concentrating homeless people in one location" is, historically, a thing cities have done for reasons that had nothing to do with anyone's welfare. Containment with a services brochure stapled to it. The difference between what I'm describing and that is not intent — everyone claims good intent — it's who chose the location.
 
-Which is why the third piece has to come before this one.
+Which is why the piece on the tenth of a percent had to come before this one.
 
 If a neighbourhood is asked honestly, at scale, with the waste question rather than a photograph designed to frighten them, you don't get a yes or a no. You get texture. This neighbourhood cares intensely about the waste and is anxious about people gathering after dark. That one has a church annex with a kitchen that sits empty six nights a week and a pastor who's been waiting years for somebody to ask. A third wants showers more than meals, because there's a park and a laundromat but nowhere to wash. A fourth would fund the whole thing tomorrow if it were two blocks east — and the two blocks aren't irrational, that's where the bus stops.
 
@@ -41,8 +41,10 @@ That's the noticing from the first piece. The thing small towns did for free, th
 
 So the measure of this thing is honestly two numbers and one thing I can't count. Pounds moved, which goes on the ledger because institutions need numbers. Nights operated, same reason. And whether anyone got caught — whether somebody noticed at month two instead of month fourteen — which I can't put in a spreadsheet and won't pretend I can. Any organisation promising you a clean metric for that is selling something.
 
-Five pieces, one argument. Cities budget for water and never budgeted for catching people, because that function was free until scale broke it. The resources to do it are already here, decaying in dumpsters, because binning is solved and giving isn't. The will to use them is probably here too, but we read it through a channel that reaches a tenth of a percent and tilts toward no. The machinery to move it is trivial by modern standards, and nobody built it because the interesting part looked like a cost. And what all that buys you is not charity — it's an address. A place where a scattered thing becomes a managed thing, chosen by the people who live there.
+Seven pieces, one argument. Cities budget for water and never budgeted for catching people, because that function was free until scale broke it. The resources to do it are already here, decaying in dumpsters, because binning is solved and giving isn't. The will to use them is probably here too, but we read it through a channel that reaches a tenth of a percent and tilts toward no — and the obvious fix, provoking everyone else into answering, measures only the provocation. The machinery to move it is trivial by modern standards, and nobody built it because the interesting part looked like a cost. And what all that buys you is not charity — it's an address. A place where a scattered thing becomes a managed thing, chosen by the people who live there.
 
 The catching was never anybody's job.
 
 I'm making it mine. If any of this is yours too, I'd like to hear from you.
+
+But there's one piece left, and it's the one underneath all the others: who we think we're building this for, and what we've quietly decided they're worth.
