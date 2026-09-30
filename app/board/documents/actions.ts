@@ -54,10 +54,19 @@ export async function signConsent(
     `Signed at (UTC): ${signedAt}`,
     `User agent: ${userAgent}`,
     ``,
-    `The signer checked the acknowledgment box confirming they read the document`,
-    `and the Board Member Risks & Responsibilities disclosure, and intend the`,
-    `typed name above to serve as their electronic signature under the Texas`,
-    `Uniform Electronic Transactions Act and the federal E-SIGN Act.`,
+    ...(docSlug === "consent-to-serve"
+      ? [
+          `The signer checked the acknowledgment box confirming they read the document`,
+          `and the Board Member Risks & Responsibilities disclosure, and intend the`,
+          `typed name above to serve as their electronic signature under the Texas`,
+          `Uniform Electronic Transactions Act and the federal E-SIGN Act.`,
+        ]
+      : [
+          `The signer checked the acknowledgment box confirming they read the document,`,
+          `are a director of Worthless Haunted Meat, and intend the typed name above to`,
+          `serve as their electronic signature on this document under the Texas`,
+          `Uniform Electronic Transactions Act and the federal E-SIGN Act.`,
+        ]),
     ``,
     `---- FULL TEXT OF SIGNED DOCUMENT ----`,
     ``,

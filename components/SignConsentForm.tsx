@@ -7,13 +7,16 @@ import { signConsent } from "@/app/board/documents/actions";
 const initialState = { success: false, error: "" };
 
 export default function SignConsentForm({
+  docSlug,
   docTitle,
   defaultName,
 }: {
+  docSlug: string;
   docTitle: string;
   defaultName: string;
 }) {
   const [state, action, pending] = useActionState(signConsent, initialState);
+  const isConsentToServe = docSlug === "consent-to-serve";
 
   if (state.success) {
     return (
@@ -25,8 +28,9 @@ export default function SignConsentForm({
         <h2 className="font-syne font-bold text-[#f5f0e8] text-2xl">Signed.</h2>
         <p className="text-[#888888]">
           Your signature has been recorded. A copy of the signed document is on
-          its way to your email. Welcome aboard — Ricardo will be in touch about
-          the first board meeting.
+          its way to your email.
+          {isConsentToServe &&
+            " Welcome aboard — Ricardo will be in touch about the first board meeting."}
         </p>
       </div>
     );
@@ -45,7 +49,7 @@ export default function SignConsentForm({
       </h2>
 
       <form action={action} noValidate className="flex flex-col gap-6">
-        <input type="hidden" name="docSlug" value="consent-to-serve" />
+        <input type="hidden" name="docSlug" value={docSlug} />
 
         {state.error && (
           <div
@@ -102,12 +106,20 @@ export default function SignConsentForm({
             required
             className="mt-1 h-4 w-4 accent-[#c0392b]"
           />
-          <span className="text-sm text-[#888888] leading-relaxed">
-            I have read the <em>{docTitle}</em> above and the{" "}
-            <em>Board Member Risks &amp; Responsibilities</em> disclosure. I
-            intend my typed name to serve as my electronic signature, and I
-            consent to serve as a director of Worthless Haunted Meat.
-          </span>
+          {isConsentToServe ? (
+            <span className="text-sm text-[#888888] leading-relaxed">
+              I have read the <em>{docTitle}</em> above and the{" "}
+              <em>Board Member Risks &amp; Responsibilities</em> disclosure. I
+              intend my typed name to serve as my electronic signature, and I
+              consent to serve as a director of Worthless Haunted Meat.
+            </span>
+          ) : (
+            <span className="text-sm text-[#888888] leading-relaxed">
+              I have read the <em>{docTitle}</em> above. I am a director of
+              Worthless Haunted Meat, and I intend my typed name to serve as my
+              electronic signature on this document.
+            </span>
+          )}
         </label>
 
         <button

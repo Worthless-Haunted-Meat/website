@@ -56,7 +56,11 @@ export default async function BoardDocumentPage({
         />
 
         {doc.meta.signable && (
-          <SignConsentForm docTitle={doc.meta.title} defaultName={inviteName ?? ""} />
+          <SignConsentForm
+            docSlug={doc.meta.slug}
+            docTitle={doc.meta.title}
+            defaultName={inviteName ?? ""}
+          />
         )}
       </div>
     </div>
