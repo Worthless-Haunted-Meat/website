@@ -32,7 +32,7 @@ export interface Person {
 }
 
 export const boardStatus = {
-  updated: "October 13, 2026",
+  updated: "October 14, 2026",
 
   standing: [
     {
@@ -65,9 +65,9 @@ export const boardStatus = {
     {
       label: "Texas franchise tax exemption",
       level: "pending",
-      value: "Applying",
+      value: "Submitted",
       detail:
-        "Form AP-204 is prepared. Once the Comptroller approves it, WHM no longer files the yearly franchise tax report that caused this year's forfeiture.",
+        "Form AP-204 was emailed to the Comptroller on October 14, 2026. Once the Comptroller approves it, WHM no longer files the yearly franchise tax report that caused this year's forfeiture.",
     },
     {
       label: "Board quorum",
@@ -101,12 +101,6 @@ export const boardStatus = {
         "Josh asked for a backup signer and suggested a credit union instead of Chase. Talk these through before signing the consent.",
     },
     {
-      title: "Submit Form AP-204 to the Comptroller",
-      owner: "Ricardo",
-      detail:
-        "Email the application and the IRS determination letter to exempt.orgs@cpa.texas.gov.",
-    },
-    {
       title: "Confirm the registered agent change",
       owner: "Ricardo",
       due: "After October 21, 2026",
@@ -134,6 +128,11 @@ export const boardStatus = {
   ] satisfies Deadline[],
 
   timeline: [
+    {
+      date: "Oct 14, 2026",
+      title: "AP-204 submitted",
+      detail: "Exemption application and IRS determination letter emailed to the Comptroller.",
+    },
     {
       date: "Oct 13, 2026",
       title: "Registered agent hired; AP-204 prepared",
