@@ -32,7 +32,7 @@ export interface Person {
 }
 
 export const boardStatus = {
-  updated: "October 14, 2026",
+  updated: "October 15, 2026",
 
   standing: [
     {
@@ -95,10 +95,10 @@ export const boardStatus = {
         "Elects officers, authorizes a credit union account with Ricardo as primary signer and Josh as backup (both sign anything over $1,000), and fixes the quorum. Sign it in the Documents tab. Until it is signed, every board decision needs all three directors in writing.",
     },
     {
-      title: "Open the credit union account",
+      title: "Open the CUTX account",
       owner: "Ricardo and Josh",
       detail:
-        "After the consent is signed, choose a federally insured credit union, open the account with both signers, and report the credit union's name to the board.",
+        "Credit Union of Texas Non-Profit Business Checking (no monthly fee). After the consent is signed, apply online or at the Castle Hills branch in Lewisville with both signers, then report the account to the board.",
     },
     {
       title: "Confirm the registered agent change",
@@ -128,6 +128,11 @@ export const boardStatus = {
   ] satisfies Deadline[],
 
   timeline: [
+    {
+      date: "Oct 15, 2026",
+      title: "Credit union chosen",
+      detail: "Credit Union of Texas (CUTX), Non-Profit Business Checking.",
+    },
     {
       date: "Oct 14, 2026",
       title: "Board consent revised",
