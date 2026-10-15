@@ -1,8 +1,8 @@
 ---
-title: "Unanimous Written Consent: Officers, Chase Account & Quorum"
+title: "Unanimous Written Consent: Officers, Credit Union Account, Signers & Quorum"
 slug: board-consent-2026-10
 order: 0
-description: Elects officers, authorizes the Chase account with Ricardo as sole signer, and fixes the quorum. All three directors sign electronically below.
+description: Elects officers, authorizes a credit union account with Ricardo as primary signer and Josh as backup signer (both sign over $1,000), and fixes the quorum. All three directors sign electronically below.
 signable: true
 ---
 
@@ -21,11 +21,15 @@ The undersigned, constituting all of the members of the Board of Directors of th
 
    The Bylaws permit one person to hold any number of offices, except that neither the Secretary nor the Treasurer may also serve as the Chair of the Board or the President. David Flesch serves as a director without an office.
 
-2. **Bank Account.** RESOLVED, that the Corporation is authorized to open and maintain one or more deposit accounts in its name with JPMorgan Chase Bank, N.A. ("Chase"), and the officers of the Corporation are authorized to sign the account agreements Chase requires and to furnish Chase with such organizational documents, identification and certifications as Chase may reasonably request.
+2. **Depository Account.** RESOLVED, that the Corporation is authorized to open and maintain one or more deposit accounts in its name with a federally insured credit union selected by the President (the "Credit Union"), and the officers of the Corporation are authorized to apply for membership on the Corporation's behalf, sign the account agreements the Credit Union requires, and furnish the Credit Union with such organizational documents, identification and certifications as it may reasonably request. The President shall report the name of the Credit Union to the Board in writing once the account is opened, and the Secretary shall file that report with this consent.
 
-3. **Authorized Signer.** RESOLVED, that pursuant to the Bylaws, which provide that "all checks and drafts drawn on banks or other depositories on funds to the credit of the Corporation … shall be signed by such person or persons as the Board of Directors shall authorize to do so," the Board designates Ricardo A. Vega Jr., Chair of the Board and President, as the sole authorized signer on the Corporation's Chase accounts, with authority to sign checks and drafts, make deposits and withdrawals, initiate transfers, and otherwise transact business on those accounts for the Corporation. This designation remains in effect until the Board revokes or amends it and delivers written notice to Chase.
+3. **Authorized Signers.** RESOLVED, that pursuant to the Bylaws, which provide that "all checks and drafts drawn on banks or other depositories on funds to the credit of the Corporation … shall be signed by such person or persons as the Board of Directors shall authorize to do so," the Board designates the following authorized signers on the Corporation's Credit Union accounts, each with authority to sign checks and drafts, make deposits and withdrawals, initiate transfers, and otherwise transact business on those accounts for the Corporation:
+   - Primary signer — Ricardo A. Vega Jr., Chair of the Board and President
+   - Backup signer — Joshua Behrenbrinker, Secretary and Treasurer
 
-4. **Oversight.** RESOLVED, that the Treasurer shall receive read-only access to the Corporation's account statements and transaction activity, and the Board shall review the Corporation's financial activity at each regular meeting.
+   Either signer may act alone on any single check, withdrawal, transfer or other payment of $1,000 or less. Any single payment of more than $1,000, and any series of related payments that together exceed $1,000, requires the approval of both signers, given by both signatures where the Credit Union supports it, or otherwise by the second signer's written approval (email is sufficient) before the payment is made and filed with the Corporation's records. These designations remain in effect until the Board revokes or amends them and delivers written notice to the Credit Union.
+
+4. **Oversight.** RESOLVED, that both authorized signers shall have full access to the Corporation's account statements and transaction activity, any director may request copies at any time, and the Board shall review the Corporation's financial activity at each regular meeting.
 
 5. **Quorum.** RESOLVED, that the sentence of the Bylaws reading "At each meeting of the Board of Directors or Board Committees, the presence of 7 persons shall constitute a quorum for the transaction of business" is amended to read: "At each meeting of the Board of Directors or Board Committees, the presence of a majority of the directors then in office, or of the members of the committee, shall constitute a quorum for the transaction of business." The Board adopts this amendment unanimously, which exceeds the two-thirds vote the Bylaws require to amend them, and each director waives the advance written notice of the proposed revision that the Bylaws otherwise require.
 
@@ -39,7 +43,7 @@ This consent may be signed in counterparts, each of which is an original. It sha
 
 ## Secretary's Certificate
 
-I, Joshua Behrenbrinker, Secretary of Worthless Haunted Meat, certify that the foregoing is a true and correct copy of the Unanimous Written Consent of the Board of Directors, duly adopted and in full force and effect, and that Ricardo A. Vega Jr. holds the offices of Chair of the Board and President and is the sole authorized signer on the Corporation's accounts with Chase.
+I, Joshua Behrenbrinker, Secretary of Worthless Haunted Meat, certify that the foregoing is a true and correct copy of the Unanimous Written Consent of the Board of Directors, duly adopted and in full force and effect, that Ricardo A. Vega Jr. holds the offices of Chair of the Board and President, and that Ricardo A. Vega Jr. (primary) and Joshua Behrenbrinker (backup) are the authorized signers on the Corporation's Credit Union accounts, with both signers' approval required for any payment of more than $1,000.
 
 *Joshua Behrenbrinker's electronic signature on this document is also his signature on this Secretary's Certificate.*
 

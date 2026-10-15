@@ -92,13 +92,13 @@ export const boardStatus = {
       title: "Sign the October 2026 board consent",
       owner: "All three directors",
       detail:
-        "Elects officers, authorizes the Chase account, and fixes the quorum. Sign it in the Documents tab. Until it is signed, every board decision needs all three directors in writing.",
+        "Elects officers, authorizes a credit union account with Ricardo as primary signer and Josh as backup (both sign anything over $1,000), and fixes the quorum. Sign it in the Documents tab. Until it is signed, every board decision needs all three directors in writing.",
     },
     {
-      title: "Settle the backup signer and bank questions",
-      owner: "Board",
+      title: "Open the credit union account",
+      owner: "Ricardo and Josh",
       detail:
-        "Josh asked for a backup signer and suggested a credit union instead of Chase. Talk these through before signing the consent.",
+        "After the consent is signed, choose a federally insured credit union, open the account with both signers, and report the credit union's name to the board.",
     },
     {
       title: "Confirm the registered agent change",
@@ -128,6 +128,11 @@ export const boardStatus = {
   ] satisfies Deadline[],
 
   timeline: [
+    {
+      date: "Oct 14, 2026",
+      title: "Board consent revised",
+      detail: "Credit union instead of Chase, Josh added as backup signer, both signers required over $1,000.",
+    },
     {
       date: "Oct 14, 2026",
       title: "AP-204 submitted",
