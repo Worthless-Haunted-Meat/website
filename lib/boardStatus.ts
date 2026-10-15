@@ -98,7 +98,7 @@ export const boardStatus = {
       title: "Open the credit union account",
       owner: "Ricardo and Josh",
       detail:
-        "After the consent is signed, choose a federally insured credit union, open the account with both signers, and report the credit union's name to the board.",
+        "After the consent is signed, open the account at Credit Union of Texas (Mobility Credit Union is the backup) with both signers, and report the credit union's name to the board. The research and the questions we'll ask are in \"Choosing WHM's Credit Union\" in the Documents tab.",
     },
     {
       title: "Confirm the registered agent change",
@@ -128,6 +128,12 @@ export const boardStatus = {
   ] satisfies Deadline[],
 
   timeline: [
+    {
+      date: "Oct 14, 2026",
+      title: "Credit union shortlist",
+      detail:
+        "Compared DFW credit unions and values-based banks. Credit Union of Texas is the first choice and Mobility Credit Union the backup. Details are in the Documents tab.",
+    },
     {
       date: "Oct 14, 2026",
       title: "Board consent revised",
