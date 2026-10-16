@@ -47,3 +47,4 @@ EpochRaw/
 
 # Local credentials note (Obsidian) — never commit
 WHM-Credentials.md
+.env*

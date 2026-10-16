@@ -1,8 +1,11 @@
 "use server";
 
-import { cookies, headers } from "next/headers";
+import { headers } from "next/headers";
+import { revalidatePath } from "next/cache";
 import { Resend } from "resend";
 import { getBoardDoc } from "@/lib/boardDocs";
+import { getBoardSession } from "@/lib/boardSession";
+import { appendRecord, ledgerConfigured, sha256 } from "@/lib/ledger";
 
 interface SignState {
   success: boolean;
@@ -13,6 +16,11 @@ export async function signConsent(
   _prev: SignState,
   formData: FormData
 ): Promise<SignState> {
+  const session = await getBoardSession();
+  if (!session) {
+    return { success: false, error: "Your board portal session has expired. Please sign in again." };
+  }
+
   const name = (formData.get("name") as string)?.trim();
   const email = (formData.get("email") as string)?.trim();
   const agreed = formData.get("agree") === "on";
@@ -34,27 +42,45 @@ export async function signConsent(
     return { success: false, error: "This document cannot be signed online." };
   }
 
-  if (!process.env.RESEND_API_KEY) {
-    console.error("RESEND_API_KEY not configured");
+  if (!ledgerConfigured()) {
+    console.error("BLOB_READ_WRITE_TOKEN not configured");
     return { success: false, error: "Could not submit signature. Please email us directly." };
   }
 
-  const token = (await cookies()).get("whm-board-token")?.value ?? "";
-  const inviteName = token.startsWith("invite:") ? token.slice("invite:".length) : "(none)";
   const userAgent = (await headers()).get("user-agent") ?? "(unknown)";
-  const signedAt = new Date().toISOString();
+  const docSha256 = sha256(doc.raw);
+
+  let signedAt: string;
+  try {
+    const saved = await appendRecord({
+      type: "signature",
+      docSlug: doc.meta.slug,
+      docTitle: doc.meta.title,
+      docSha256,
+      name,
+      email,
+      sessionKind: session.kind,
+      sessionName: session.name,
+      userAgent,
+    });
+    signedAt = saved.recordedAt;
+  } catch (e) {
+    console.error("Ledger write failed:", e);
+    return { success: false, error: "Something went wrong submitting your signature. Please try again." };
+  }
 
   const record = [
     `ELECTRONIC SIGNATURE RECORD`,
     ``,
     `Document: ${doc.meta.title}`,
+    `Document version (SHA-256): ${docSha256}`,
     `Signer (typed full legal name): ${name}`,
     `Signer email: ${email}`,
-    `Invite identity (portal cookie): ${inviteName}`,
+    `Portal identity: ${session.name ?? `(${session.kind} login)`}`,
     `Signed at (UTC): ${signedAt}`,
     `User agent: ${userAgent}`,
     ``,
-    ...(docSlug === "consent-to-serve"
+    ...(doc.meta.slug === "consent-to-serve"
       ? [
           `The signer checked the acknowledgment box confirming they read the document`,
           `and the Board Member Risks & Responsibilities disclosure, and intend the`,
@@ -68,27 +94,28 @@ export async function signConsent(
           `Uniform Electronic Transactions Act and the federal E-SIGN Act.`,
         ]),
     ``,
+    `This signature is recorded in the board ledger at worthlesshauntedmeat.org/board/ledger.`,
+    ``,
     `---- FULL TEXT OF SIGNED DOCUMENT ----`,
     ``,
     doc.raw,
   ].join("\n");
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
-
-  const { error } = await resend.emails.send({
-    from: "WHM Board Portal <noreply@worthlesshauntedmeat.org>",
-    to: ["worthlesshauntedmeat@gmail.com"],
-    cc: [email],
-    replyTo: email,
-    subject: `SIGNED: ${doc.meta.title} — ${name}`,
-    text: record,
-  });
-
-  if (error) {
-    console.error("Resend error:", error);
-    return { success: false, error: "Something went wrong submitting your signature. Please try again." };
+  if (process.env.RESEND_API_KEY) {
+    const { error } = await new Resend(process.env.RESEND_API_KEY).emails.send({
+      from: "WHM Board Portal <noreply@worthlesshauntedmeat.org>",
+      to: ["worthlesshauntedmeat@gmail.com"],
+      cc: [email],
+      replyTo: email,
+      subject: `SIGNED: ${doc.meta.title} — ${name}`,
+      text: record,
+    });
+    if (error) console.error("Resend error (signature is saved in the ledger):", error);
+  } else {
+    console.error("RESEND_API_KEY not configured (signature is saved in the ledger)");
   }
 
-  console.log(`[BOARD SIGN] "${name}" <${email}> signed "${doc.meta.title}" at ${signedAt} (invite: ${inviteName})`);
+  console.log(`[BOARD SIGN] "${name}" <${email}> signed "${doc.meta.title}" at ${signedAt} (portal: ${session.name ?? session.kind})`);
+  revalidatePath("/board", "layout");
   return { success: true, error: "" };
 }

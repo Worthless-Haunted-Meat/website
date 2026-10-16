@@ -1,6 +1,7 @@
 import { createHash } from "crypto";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { createSession, sessionSecret, SESSION_COOKIE } from "@/lib/session";
 
 export async function POST(request: NextRequest) {
   const body = (await request.json()) as { password?: string };
@@ -21,12 +22,18 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false }, { status: 401 });
   }
 
+  const secret = sessionSecret();
+  if (!secret) {
+    return NextResponse.json({ ok: false }, { status: 500 });
+  }
+
+  const maxAge = 60 * 60 * 24 * 7;
   const response = NextResponse.json({ ok: true });
-  response.cookies.set("whm-board-token", hash, {
+  response.cookies.set(SESSION_COOKIE, await createSession("password", null, maxAge, secret), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 7, // 7 days
+    maxAge,
     path: "/",
   });
 

@@ -4,6 +4,7 @@ slug: consent-to-serve
 order: 1
 description: The document you sign to accept a seat on the board. Signable electronically below.
 signable: true
+signedBy: individual
 ---
 
 # Consent to Serve as Director
