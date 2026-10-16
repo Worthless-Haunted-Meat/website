@@ -115,3 +115,9 @@
   --tw-prose-th-borders: var(--color-border);
   --tw-prose-td-borders: var(--color-border);
 }
+
+/* Board documents are signed text: show only the quotation marks written in them. */
+.prose-legal blockquote p:first-of-type::before,
+.prose-legal blockquote p:last-of-type::after {
+  content: none;
+}

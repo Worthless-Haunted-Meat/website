@@ -33,7 +33,7 @@ export default async function BoardPage() {
         </p>
         <BoardTabs activeHref="/board" />
         <div
-          className="prose prose-lg max-w-none"
+          className="prose prose-lg prose-legal max-w-none"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>

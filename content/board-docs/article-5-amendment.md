@@ -11,7 +11,13 @@ This document shows the current purpose language from the Corporation's Certific
 
 ## Current Language (as filed)
 
+> The nonprofit corporation is organized for the following purpose or purposes:
+>
 > Worthless Haunted Meat harnesses technology and community efforts to turn surplus food into a solution for homelessness, fostering recovery and unity. Our mission: empower communities, support recovery, and ensure no one is left behind.
+>
+> At Worthless Haunted Meat, our mission is to transform perceptions, foster innovation, and inspire community action in tackling homelessness. We are dedicated to intercepting food on the verge of being discarded and channeling it towards communities grappling with homelessness, providing not only sustenance but also a beacon of hope. Our goal is to galvanize communities to confront and address their homelessness issues head-on, nurturing a sense of empathy, responsibility, and unity.
+>
+> Through food rescue, technological innovation, and community collaboration, Worthless Haunted Meat aims to rewrite the narrative of homelessness, demonstrating that every individual, regardless of their circumstances, is worthy of dignity, respect, and a helping hand. Together, we can build a more inclusive and compassionate world where no one is left behind.
 
 ## Proposed Amended & Restated Article 5
 
@@ -29,12 +35,13 @@ This document shows the current purpose language from the Corporation's Certific
 
 ## Why This Change
 
-- The current clause limits the Corporation to surplus-food redistribution for homelessness. The restated clause **preserves that original purpose** as item (a) while adding education/empowerment (b) and recovery-support (c) lanes, with (d) providing general 501(c)(3) flexibility.
+- The current clause limits the Corporation to surplus-food redistribution for homelessness. The restated clause **carries those original purposes forward** in items (a) and (c), adds education and empowerment (b), and keeps general 501(c)(3) flexibility in (d).
+- The restatement replaces all of Article 5, including the second text area, so the narrative mission language there is removed from the Certificate of Formation. The mission statement lives in the Board's consent and on the website instead.
 - The inurement and dissolution paragraphs are the standard language the IRS expects in the formation document of a 501(c)(3).
 
 ## Filing Steps (after Board approval)
 
 1. Board approves the restated Article 5 (by the *Mission Statement & Purpose Amendment* written consent, signed in the portal)
-2. President executes Form 424 (Certificate of Amendment)
+2. Ricardo A. Vega Jr., as President, executes Form 424 (Certificate of Amendment)
 3. File with the Texas Secretary of State ($25) via SOSUpload or mail
 4. Keep the file-stamped amendment with the corporate records; provide to the IRS if ever filing a full Form 990 or updating the exemption record
