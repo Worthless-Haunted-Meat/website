@@ -15,7 +15,7 @@ The undersigned, constituting all of the members of the Board of Directors of th
 
 1. **Mission Statement.** RESOLVED, that the Board adopts the following as the mission statement of the Corporation, to be pursued exclusively within the charitable and educational purposes stated in Article 5 of its Certificate of Formation and within the meaning of Section 501(c)(3) of the Internal Revenue Code:
 
-   > *"We discover what people love — then we use technology to help them do more of it, and teach them to bring others along."*
+   > *"We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along."*
 
 2. **Amendment of Article 5 (Purpose).** RESOLVED, that Article 5 of the Corporation's Certificate of Formation, filed with the Texas Secretary of State on March 20, 2024, which currently reads:
 
