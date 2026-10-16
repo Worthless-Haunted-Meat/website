@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cookies } from "next/headers";
+import { getBoardSession } from "@/lib/boardSession";
 import { FileText, PenLine } from "lucide-react";
 import BoardTabs from "@/components/BoardTabs";
 import { listBoardDocs } from "@/lib/boardDocs";
@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default async function BoardDocumentsPage() {
   const docs = listBoardDocs();
-  const token = (await cookies()).get("whm-board-token")?.value;
-  const inviteName = token?.startsWith("invite:") ? token.slice("invite:".length) : null;
+  const inviteName = (await getBoardSession())?.name ?? null;
 
   return (
     <div className="py-24 md:py-32">

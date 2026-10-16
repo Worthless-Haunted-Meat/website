@@ -7,6 +7,7 @@ const tabs = [
   { href: "/board/risks", label: "Risks & Responsibilities" },
   { href: "/board/documents", label: "Documents" },
   { href: "/board/vote", label: "Vote" },
+  { href: "/board/ledger", label: "Ledger" },
 ];
 
 export default function BoardTabs({ activeHref }: { activeHref: string }) {

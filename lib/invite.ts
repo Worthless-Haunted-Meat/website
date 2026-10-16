@@ -1,10 +1,10 @@
-function b64urlEncode(bytes: Uint8Array): string {
+export function b64urlEncode(bytes: Uint8Array): string {
   let s = "";
   for (const b of bytes) s += String.fromCharCode(b);
   return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
-function b64urlDecode(input: string): Uint8Array {
+export function b64urlDecode(input: string): Uint8Array {
   const padded = input.replace(/-/g, "+").replace(/_/g, "/") + "=".repeat((4 - (input.length % 4)) % 4);
   const bin = atob(padded);
   const out = new Uint8Array(bin.length);
@@ -12,7 +12,7 @@ function b64urlDecode(input: string): Uint8Array {
   return out;
 }
 
-async function sign(payload: string, secret: string): Promise<string> {
+export async function sign(payload: string, secret: string): Promise<string> {
   const key = await crypto.subtle.importKey(
     "raw",
     new TextEncoder().encode(secret),
@@ -24,7 +24,7 @@ async function sign(payload: string, secret: string): Promise<string> {
   return b64urlEncode(new Uint8Array(sig));
 }
 
-function timingSafeEqual(a: string, b: string): boolean {
+export function timingSafeEqual(a: string, b: string): boolean {
   if (a.length !== b.length) return false;
   let diff = 0;
   for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);

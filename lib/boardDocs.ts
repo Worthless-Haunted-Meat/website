@@ -12,6 +12,7 @@ export interface BoardDocMeta {
   order: number;
   description: string;
   signable: boolean;
+  signedBy: "all-directors" | "individual";
 }
 
 export function listBoardDocs(): BoardDocMeta[] {
@@ -19,7 +20,7 @@ export function listBoardDocs(): BoardDocMeta[] {
   return fs
     .readdirSync(DOCS_DIR)
     .filter((f) => f.endsWith(".md"))
-    .map((f) => {
+    .map((f): BoardDocMeta => {
       const { data } = matter(fs.readFileSync(path.join(DOCS_DIR, f), "utf8"));
       return {
         title: data.title as string,
@@ -27,6 +28,7 @@ export function listBoardDocs(): BoardDocMeta[] {
         order: (data.order as number) ?? 99,
         description: (data.description as string) ?? "",
         signable: Boolean(data.signable),
+        signedBy: data.signedBy === "individual" ? "individual" : "all-directors",
       };
     })
     .sort((a, b) => a.order - b.order);

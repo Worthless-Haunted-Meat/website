@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { cookies } from "next/headers";
+import { getBoardSession } from "@/lib/boardSession";
 import { CheckCircle2, CircleDot } from "lucide-react";
 import BoardTabs from "@/components/BoardTabs";
 import VoteForm from "@/components/VoteForm";
@@ -16,8 +16,7 @@ export default async function BoardVotePage() {
     await Promise.all(metas.map((m) => getMotion(m.slug)))
   ).filter((m): m is NonNullable<typeof m> => m !== null);
 
-  const token = (await cookies()).get("whm-board-token")?.value;
-  const inviteName = token?.startsWith("invite:") ? token.slice("invite:".length) : null;
+  const inviteName = (await getBoardSession())?.name ?? null;
 
   const open = motions.filter((m) => m.meta.status === "open");
   const closed = motions.filter((m) => m.meta.status === "closed");

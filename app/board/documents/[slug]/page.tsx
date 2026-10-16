@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cookies } from "next/headers";
+import { getBoardSession } from "@/lib/boardSession";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import BoardTabs from "@/components/BoardTabs";
 import SignConsentForm from "@/components/SignConsentForm";
+import SignatureStatus from "@/components/SignatureStatus";
 import { getBoardDoc } from "@/lib/boardDocs";
+import { getLedgerView } from "@/lib/ledgerStatus";
 
 export const dynamic = "force-dynamic";
 
@@ -31,8 +33,10 @@ export default async function BoardDocumentPage({
   const doc = await getBoardDoc(slug);
   if (!doc) notFound();
 
-  const token = (await cookies()).get("whm-board-token")?.value;
-  const inviteName = token?.startsWith("invite:") ? token.slice("invite:".length) : null;
+  const inviteName = (await getBoardSession())?.name ?? null;
+  const status = doc.meta.signable
+    ? (await getLedgerView()).docs.find((d) => d.meta.slug === doc.meta.slug) ?? null
+    : null;
 
   return (
     <div className="py-24 md:py-32">
@@ -54,6 +58,15 @@ export default async function BoardDocumentPage({
           className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: doc.html }}
         />
+
+        {status && (
+          <div className="mt-12">
+            <p className="text-xs font-medium tracking-widest uppercase text-[#888888] mb-3">
+              Signatures on record
+            </p>
+            <SignatureStatus status={status} />
+          </div>
+        )}
 
         {doc.meta.signable && (
           <SignConsentForm
