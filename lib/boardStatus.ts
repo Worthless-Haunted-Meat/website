@@ -32,7 +32,7 @@ export interface Person {
 }
 
 export const boardStatus = {
-  updated: "October 15, 2026",
+  updated: "October 16, 2026",
 
   standing: [
     {
@@ -89,6 +89,18 @@ export const boardStatus = {
 
   openItems: [
     {
+      title: "Sign the mission statement and purpose amendment",
+      owner: "All three directors",
+      detail:
+        "Adopts the mission statement and broadens Article 5 of the Certificate of Formation (keeping the original surplus-food purpose and adding technology education and recovery support). Sign it in the Documents tab.",
+    },
+    {
+      title: "File the Certificate of Amendment (Form 424)",
+      owner: "Ricardo",
+      due: "After all three sign",
+      detail: "File with the Texas Secretary of State ($25) and keep the file-stamped copy in the records.",
+    },
+    {
       title: "Sign the October 2026 board consent",
       owner: "All three directors",
       detail:
@@ -128,6 +140,11 @@ export const boardStatus = {
   ] satisfies Deadline[],
 
   timeline: [
+    {
+      date: "Oct 16, 2026",
+      title: "Mission and purpose amendment sent to the board",
+      detail: "Written consent posted for signature; once signed, Form 424 is filed with the Secretary of State.",
+    },
     {
       date: "Oct 15, 2026",
       title: "Credit union chosen",

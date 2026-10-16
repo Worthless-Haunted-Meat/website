@@ -7,7 +7,7 @@ description: Current Certificate of Formation purpose language and the proposed 
 
 # Article 5 Amendment — Purpose Clause (Reference)
 
-This document shows the current purpose language from the Corporation's Certificate of Formation (Form 202, filed March 15, 2024) and the proposed amended and restated language the Board will consider. Filing is by Certificate of Amendment (Form 424) with the Texas Secretary of State, $25 fee.
+This document shows the current purpose language from the Corporation's Certificate of Formation (Form 202, signed March 15, 2024 and filed March 20, 2024) and the proposed amended and restated language the Board will consider. Filing is by Certificate of Amendment (Form 424) with the Texas Secretary of State, $25 fee.
 
 ## Current Language (as filed)
 
@@ -34,7 +34,7 @@ This document shows the current purpose language from the Corporation's Certific
 
 ## Filing Steps (after Board approval)
 
-1. Board approves the restated Article 5 (resolution at the first meeting)
+1. Board approves the restated Article 5 (by the *Mission Statement & Purpose Amendment* written consent, signed in the portal)
 2. President executes Form 424 (Certificate of Amendment)
 3. File with the Texas Secretary of State ($25) via SOSUpload or mail
 4. Keep the file-stamped amendment with the corporate records; provide to the IRS if ever filing a full Form 990 or updating the exemption record
