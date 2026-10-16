@@ -9,41 +9,35 @@ description: Agenda and proposed resolutions for the first meeting of the recons
 
 **Worthless Haunted Meat** — Agenda & Proposed Resolutions
 
-*Meeting may be held by video conference. Minutes to be taken by the acting secretary and filed in the minute book.*
+*Meeting may be held by video conference. Minutes to be taken by the Secretary and filed in the minute book.*
+
+This meeting follows the two October 2026 written consents. Officers, the credit union account, the quorum fix, the mission statement, the Article 5 amendment and the conforming bylaw amendments are all adopted by those consents, not at this meeting. Until both consents are signed by all three directors, the bylaws' quorum of 7 cannot be met and this meeting cannot act.
 
 ## Agenda
 
-1. Call to order; confirm quorum (all three directors present)
-2. Ratify the appointment of the new directors (written consent on file)
-3. Election of officers
-4. Ratification of mission statement *(handled by written consent; see below)*
-5. Approval of Certificate of Amendment (Article 5 — Purpose) *(handled by written consent; see below)*
-6. Adoption of Conflict of Interest Policy
-7. Compliance review and assignments
-8. Program direction discussion
-9. Adjournment
+1. Call to order; confirm quorum (a majority of the directors in office, under the October 2026 consent)
+2. Confirm that both October 2026 written consents are signed and filed in the minute book
+3. Report on the Certificate of Amendment (Form 424) filing and the Credit Union of Texas account
+4. Conflict of Interest Policy, if Motion 2026-02 was not adopted by all three directors in the portal
+5. Compliance review and assignments
+6. Bylaws review: items to fix in a future amendment (see below)
+7. Program direction discussion
+8. Adjournment
 
 ## Proposed Resolutions
 
-**1. Officers.** RESOLVED, that the following persons are elected to the offices set forth beside their names, to serve per the bylaws:
+**1. Conflict of Interest Policy.** RESOLVED, that the Board adopts the Conflict of Interest Policy in the board portal, and that each director and officer shall sign the annual statement it requires.
 
-| Office | Name |
-|---|---|
-| President / Executive Director | _________________________ |
-| Secretary | _________________________ |
-| Treasurer | _________________________ |
+**2. Compliance.** RESOLVED, that the Board confirms the status of the Corporation's IRS Form 990-N and Texas franchise tax filings for the most recent year, and assigns responsibility for annual filings (due May 15 each year) to the Treasurer.
 
-*(Texas law requires a president and a secretary; the same person may not hold both offices.)*
+## Bylaws Review
 
-*Resolutions 2 and 3 are being adopted by the Unanimous Written Consent: Mission Statement & Purpose Amendment (Documents tab). If all three directors sign it before the meeting, skip them here.*
+Provisions to consider for a future bylaw amendment, with written notice under the bylaws:
 
-**2. Mission.** RESOLVED, that the Board ratifies the Corporation's mission statement: *"We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along"* — as a statement of the Corporation's charitable purposes, to be pursued exclusively within the meaning of Section 501(c)(3).
-
-**3. Certificate of Amendment.** RESOLVED, that the Board approves the amended and restated Article 5 purpose clause set forth in the *Article 5 Amendment* reference document, and authorizes the President to execute and file a Certificate of Amendment (Form 424) with the Texas Secretary of State, with filing fee of $25.
-
-**4. Conflict of Interest Policy.** RESOLVED, that the Board adopts the Conflict of Interest Policy presented to the meeting, and that each director shall complete an annual disclosure statement.
-
-**5. Compliance.** RESOLVED, that the Board confirms the status of the Corporation's IRS Form 990-N and Texas franchise tax filings for the most recent year, and assigns responsibility for annual filings (due May 15 each year) to the Treasurer.
+- **Audited financial statements.** The bylaws require annual statements audited by an independent CPA and made public within 90 days of year end. That is costly for an organization of this size; consider requiring a CPA audit only above a revenue threshold.
+- **Interested persons.** The bylaws allow no more than 10% of directors to be interested persons (anyone paid by the Corporation in the last 12 months, other than reasonable director compensation). On a three-person board, that rules out paying any director for other services.
+- **Term limits.** The term-limit sentence is garbled ("No person shall serve more than 76consecutive years") and should be restated.
+- **Governing law.** The bylaws refer to the Non-Profit Corporation Act of Texas, which the Texas Business Organizations Code has replaced.
 
 ---
 

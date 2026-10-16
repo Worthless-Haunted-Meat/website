@@ -10,4 +10,4 @@ result: ""
 
 **Moved:** That the Board of Directors of Worthless Haunted Meat adopt the [Conflict of Interest Policy](/board/documents/conflict-of-interest-policy) in the board portal as the organization's policy governing actual and potential conflicts of interest for directors, officers, and key persons, effective immediately upon approval.
 
-A vote of **Aye** adopts the policy as written. A vote of **Nay** rejects it. **Abstain** records your presence without a position.
+A vote of **Aye** approves the policy as written and is your signature on this motion. The Board acts outside a meeting only by the written consent of all directors, so the motion is adopted when all three directors vote **Aye**. A **Nay** or **Abstain** from any director sends it to the next Board meeting.

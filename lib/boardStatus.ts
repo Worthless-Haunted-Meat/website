@@ -92,7 +92,7 @@ export const boardStatus = {
       title: "Sign the mission statement and purpose amendment",
       owner: "All three directors",
       detail:
-        "Adopts the mission statement and broadens Article 5 of the Certificate of Formation (keeping the original surplus-food purpose and adding technology education and recovery support). Sign it in the Documents tab.",
+        "Adopts the mission statement, broadens Article 5 of the Certificate of Formation (keeping the original surplus-food and recovery purposes and adding technology education), and updates the bylaws to match. Sign it in the Documents tab.",
     },
     {
       title: "File the Certificate of Amendment (Form 424)",
@@ -104,7 +104,7 @@ export const boardStatus = {
       title: "Sign the October 2026 board consent",
       owner: "All three directors",
       detail:
-        "Elects officers, authorizes a credit union account with Ricardo as primary signer and Josh as backup (both sign anything over $1,000), and fixes the quorum. Sign it in the Documents tab. Until it is signed, every board decision needs all three directors in writing.",
+        "Elects officers, authorizes the Credit Union of Texas account with Ricardo as primary signer and Josh as backup (both sign anything over $1,000), and fixes the quorum. Sign it in the Documents tab. Until it is signed, every board decision needs all three directors in writing.",
     },
     {
       title: "Open the CUTX account",
