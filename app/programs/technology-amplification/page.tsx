@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Technology Amplification",
   description:
-    "We take what people already love and use technology to multiply it — then teach them to pass that power on. First program: MoshPit Zero.",
+    "We take what people already love and use technology to multiply it — then share how we did it, so the good can spread. First program: MoshPit Zero.",
 };
 
 export default function TechnologyAmplificationPage() {

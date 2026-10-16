@@ -37,7 +37,7 @@ description: Agenda and proposed resolutions for the first meeting of the recons
 
 *Resolutions 2 and 3 are being adopted by the Unanimous Written Consent: Mission Statement & Purpose Amendment (Documents tab). If all three directors sign it before the meeting, skip them here.*
 
-**2. Mission.** RESOLVED, that the Board ratifies the Corporation's mission statement: *"We discover what people love — then we use technology to help them do more of it, and teach them to bring others along"* — as a statement of the Corporation's charitable purposes, to be pursued exclusively within the meaning of Section 501(c)(3).
+**2. Mission.** RESOLVED, that the Board ratifies the Corporation's mission statement: *"We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along"* — as a statement of the Corporation's charitable purposes, to be pursued exclusively within the meaning of Section 501(c)(3).
 
 **3. Certificate of Amendment.** RESOLVED, that the Board approves the amended and restated Article 5 purpose clause set forth in the *Article 5 Amendment* reference document, and authorizes the President to execute and file a Certificate of Amendment (Form 424) with the Texas Secretary of State, with filing fee of $25.
 

@@ -26,8 +26,8 @@ export default function HomePage() {
             <TextGenerateEffect words="Worthless Haunted Meat" />
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-[#888888] leading-relaxed">
-            We discover what people love — then we use technology to help them do more
-            of it, and teach them to bring others along.
+            We discover what people love, then use technology to help them do more of it,
+            and we share our methods, not just our tools, so anyone who wants to can bring others along.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Link
@@ -60,8 +60,8 @@ export default function HomePage() {
             </p>
             <blockquote className="font-syne font-bold text-[#e74c3c] leading-tight max-w-4xl mx-auto"
               style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}>
-              &ldquo;We discover what people love — then we use technology to help them do more
-              of it, and teach them to bring others along.&rdquo;
+              &ldquo;We discover what people love, then use technology to help them do more of it,
+              and we share our methods, not just our tools, so anyone who wants to can bring others along.&rdquo;
             </blockquote>
           </Reveal>
         </div>
@@ -101,7 +101,7 @@ export default function HomePage() {
                 icon={Cpu}
                 title="Technology Amplification"
                 href="/programs/technology-amplification"
-                description="We take what people already love and use technology to multiply it — then teach them to pass that power on to others."
+                description="We take what people already love and use technology to multiply it — then share how we did it, so the good can spread."
               />
             </Reveal>
           </div>

@@ -154,8 +154,8 @@ export default function AboutPage() {
                 className="font-syne font-bold text-[#f5f0e8] leading-tight"
                 style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
               >
-                We discover what people love — then we use technology to help them do
-                more of it, and teach them to bring others along.
+                We discover what people love, then use technology to help them do more of it,
+                and we share our methods, not just our tools, so anyone who wants to can bring others along.
               </p>
             </div>
           </Reveal>

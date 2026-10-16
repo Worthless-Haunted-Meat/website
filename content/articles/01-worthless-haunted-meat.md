@@ -89,7 +89,7 @@ But what if we pointed it at teachers buried in paperwork they hate, serving kid
 
 That's what Worthless Haunted Meat is.
 
-Our mission is simple: we discover what people love — then we use technology to help them do more of it, and teach them to bring others along.
+Our mission is simple: we discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along.
 
 It's not charity. It's not a tech company. It's a dare.
 

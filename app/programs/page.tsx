@@ -46,8 +46,8 @@ export default function ProgramsPage() {
           Programs
         </h1>
         <p className="text-[#888888] text-lg leading-relaxed mb-12 max-w-2xl">
-          We discover what people love — then we use technology to help them do
-          more of it, and teach them to bring others along. Three programs
+          We discover what people love, then use technology to help them do more of it,
+          and we share our methods, not just our tools, so anyone who wants to can bring others along. Three programs
           carry that mission.
         </p>
 
