@@ -67,7 +67,7 @@ export default async function BoardVotePage() {
                 {motion.meta.title}
               </h2>
               <div
-                className="prose prose-lg max-w-none"
+                className="prose prose-lg prose-legal max-w-none"
                 dangerouslySetInnerHTML={{ __html: motion.html }}
               />
               <VoteForm
