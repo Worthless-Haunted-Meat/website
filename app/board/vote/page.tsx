@@ -40,6 +40,12 @@ export default async function BoardVotePage() {
             ? `${inviteName} — these are the motions currently before the board. Read each one, then cast your vote below it. Every vote is recorded and a copy lands in your inbox.`
             : "The motions currently before the board. Read each one, then cast your vote below it. Every vote is recorded and a copy lands in your inbox."}
         </p>
+        <p className="text-[#888888] text-sm leading-relaxed border-l-2 border-[#e74c3c] pl-4 mb-12 -mt-6">
+          The bylaws let the board act outside a meeting only with the written
+          consent of every director. A motion here is adopted when all three
+          directors vote Aye, and each Aye is that director&apos;s signature on it.
+          A motion without three Ayes goes to the next board meeting.
+        </p>
 
         {open.length === 0 && (
           <p className="text-[#888888] text-lg border border-[#222222] rounded-md p-8 text-center">

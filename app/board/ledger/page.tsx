@@ -151,6 +151,12 @@ export default async function BoardLedgerPage() {
                   ) : (
                     <p className="text-sm text-[#888888]">No votes cast.</p>
                   )}
+                  {meta.status === "open" && notVoted.length === 0 && votes.every((v) => v.choice === "Aye") && (
+                    <p className="text-sm text-[#7fbf7f] mt-2">Adopted: all directors voted Aye.</p>
+                  )}
+                  {meta.status === "open" && notVoted.length === 0 && !votes.every((v) => v.choice === "Aye") && (
+                    <p className="text-sm text-[#e0b050] mt-2">Not adopted outside a meeting: goes to the next board meeting.</p>
+                  )}
                   {meta.status === "open" && notVoted.length > 0 && (
                     <p className="text-sm text-[#888888] mt-2">Not yet voted: {notVoted.join(", ")}</p>
                   )}
