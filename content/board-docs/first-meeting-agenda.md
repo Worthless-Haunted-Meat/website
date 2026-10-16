@@ -16,8 +16,8 @@ description: Agenda and proposed resolutions for the first meeting of the recons
 1. Call to order; confirm quorum (all three directors present)
 2. Ratify the appointment of the new directors (written consent on file)
 3. Election of officers
-4. Ratification of mission statement
-5. Approval of Certificate of Amendment (Article 5 — Purpose)
+4. Ratification of mission statement *(handled by written consent; see below)*
+5. Approval of Certificate of Amendment (Article 5 — Purpose) *(handled by written consent; see below)*
 6. Adoption of Conflict of Interest Policy
 7. Compliance review and assignments
 8. Program direction discussion
@@ -34,6 +34,8 @@ description: Agenda and proposed resolutions for the first meeting of the recons
 | Treasurer | _________________________ |
 
 *(Texas law requires a president and a secretary; the same person may not hold both offices.)*
+
+*Resolutions 2 and 3 are being adopted by the Unanimous Written Consent: Mission Statement & Purpose Amendment (Documents tab). If all three directors sign it before the meeting, skip them here.*
 
 **2. Mission.** RESOLVED, that the Board ratifies the Corporation's mission statement: *"We discover what people love — then we use technology to help them do more of it, and teach them to bring others along"* — as a statement of the Corporation's charitable purposes, to be pursued exclusively within the meaning of Section 501(c)(3).
 
