@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Worthless Haunted Meat",
   },
   description:
-    "We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along.",
+    "We discover what people love, then use technology to help them do more of it, and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.",
   keywords: ["nonprofit", "technology", "community", "Texas", "501c3"],
   openGraph: {
     type: "website",
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     siteName: "Worthless Haunted Meat",
     title: "Worthless Haunted Meat",
     description:
-      "We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along.",
+      "We discover what people love, then use technology to help them do more of it, and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Worthless Haunted Meat",
     description:
-      "We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along.",
+      "We discover what people love, then use technology to help them do more of it, and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.",
   },
 };
 

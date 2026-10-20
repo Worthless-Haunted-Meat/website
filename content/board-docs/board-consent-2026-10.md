@@ -2,7 +2,7 @@
 title: "Unanimous Written Consent: Officers, Credit Union Account, Signers & Quorum"
 slug: board-consent-2026-10
 order: 0
-description: Elects officers, authorizes a Credit Union of Texas account with Ricardo as primary signer and Josh as backup signer (both sign over $1,000), and fixes the quorum. All three directors sign electronically below.
+description: Elects officers, authorizes a Credit Union of Texas account with Ricardo as primary signer and Josh as backup signer (both sign over $1,000), fixes the quorum, and sets an emergency succession plan. All three directors sign electronically below.
 signable: true
 ---
 
@@ -35,7 +35,9 @@ The undersigned, constituting all of the members of the Board of Directors of th
 
 6. **Ratification.** RESOLVED, that all actions taken by the directors and officers of the Corporation before the date of this consent in furtherance of its organization, formation and purposes are ratified, approved and confirmed.
 
-7. **General Authority.** RESOLVED, that the officers of the Corporation are authorized to take all further action and sign all further documents they consider necessary or appropriate to carry out these resolutions.
+7. **Emergency Succession.** RESOLVED, that if the office of President becomes vacant, or the President is unable to act and the other two directors so state in writing, David Flesch (or, if he cannot serve, another director who is neither the Secretary nor the Treasurer) shall serve as acting Chair of the Board and acting President until the Board elects a successor. The Bylaws do not allow the Secretary or the Treasurer to hold either of those offices. While serving, the acting President is an authorized signer on the Corporation's Credit Union accounts in place of the President, on the terms in Resolution 3, effective when the Secretary delivers this consent and the directors' written statement to the Credit Union. The President shall keep a current record of the Corporation's accounts, logins, registrations and filing credentials in a shared password vault that at least two directors can open in an emergency. The remaining directors shall fill any vacancy on the Board as the Bylaws permit.
+
+8. **General Authority.** RESOLVED, that the officers of the Corporation are authorized to take all further action and sign all further documents they consider necessary or appropriate to carry out these resolutions.
 
 This consent may be signed in counterparts, each of which is an original. It shall be filed in the minute book of the Corporation and has the same force and effect as a unanimous vote of the Board taken at a duly called meeting.
 

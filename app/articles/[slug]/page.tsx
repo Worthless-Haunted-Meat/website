@@ -141,7 +141,7 @@ export default async function ArticleSlugPage({ params }: Props) {
         <div className="max-w-3xl mx-auto px-6 text-center">
           <p className="font-syne font-bold text-[#f5f0e8] text-2xl mb-4">
             We discover what people love, then use technology to help them do more of it,
-            and we share our methods, not just our tools, so anyone who wants to can bring others along.
+            and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.
           </p>
           <Link
             href="/join"

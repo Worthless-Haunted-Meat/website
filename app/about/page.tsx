@@ -155,7 +155,7 @@ export default function AboutPage() {
                 style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
               >
                 We discover what people love, then use technology to help them do more of it,
-                and we share our methods, not just our tools, so anyone who wants to can bring others along.
+                and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.
               </p>
             </div>
           </Reveal>
