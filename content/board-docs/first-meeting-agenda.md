@@ -34,7 +34,6 @@ This meeting follows the two October 2026 written consents. Officers, the credit
 
 Provisions to consider for a future bylaw amendment, with written notice under the bylaws:
 
-- **Audited financial statements.** The bylaws require annual statements audited by an independent CPA and made public within 90 days of year end. That is costly for an organization of this size; consider requiring a CPA audit only above a revenue threshold.
 - **Interested persons.** The bylaws allow no more than 10% of directors to be interested persons (anyone paid by the Corporation in the last 12 months, other than reasonable director compensation). On a three-person board, that rules out paying any director for other services.
 - **Term limits.** The term-limit sentence is garbled ("No person shall serve more than 76consecutive years") and should be restated.
 - **Governing law.** The bylaws refer to the Non-Profit Corporation Act of Texas, which the Texas Business Organizations Code has replaced.

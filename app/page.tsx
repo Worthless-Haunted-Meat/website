@@ -27,7 +27,7 @@ export default function HomePage() {
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-[#888888] leading-relaxed">
             We discover what people love, then use technology to help them do more of it,
-            and we share our methods, not just our tools, so anyone who wants to can bring others along.
+            and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Link
@@ -61,7 +61,7 @@ export default function HomePage() {
             <blockquote className="font-syne font-bold text-[#e74c3c] leading-tight max-w-4xl mx-auto"
               style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}>
               &ldquo;We discover what people love, then use technology to help them do more of it,
-              and we share our methods, not just our tools, so anyone who wants to can bring others along.&rdquo;
+              and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.&rdquo;
             </blockquote>
           </Reveal>
         </div>

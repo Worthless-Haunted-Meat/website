@@ -2,7 +2,7 @@
 title: "Unanimous Written Consent: Mission Statement & Purpose Amendment"
 slug: board-consent-2026-10-mission-purpose
 order: 1
-description: Adopts the mission statement, amends Article 5 (Purpose) of the Certificate of Formation, conforms the Bylaws, and authorizes filing Form 424 with the Texas Secretary of State. All three directors sign electronically below.
+description: Adopts the mission statement, amends Article 5 (Purpose) of the Certificate of Formation, amends the Bylaws (purpose, precedence, audit threshold), and authorizes filing Form 424 with the Texas Secretary of State. All three directors sign electronically below.
 signable: true
 ---
 
@@ -15,7 +15,7 @@ The undersigned, constituting all of the members of the Board of Directors of th
 
 1. **Mission Statement.** RESOLVED, that the Board adopts the following as the mission statement of the Corporation, to be pursued exclusively within the charitable and educational purposes stated in Article 5 of its Certificate of Formation and within the meaning of Section 501(c)(3) of the Internal Revenue Code:
 
-   > *"We discover what people love, then use technology to help them do more of it, and we share our methods, not just our tools, so anyone who wants to can bring others along."*
+   > *"We discover what people love, then use technology to help them do more of it, and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves."*
 
 2. **Amendment of Article 5 (Purpose).** RESOLVED, that Article 5 of the Corporation's Certificate of Formation, filed with the Texas Secretary of State on March 20, 2024, which currently reads in full:
 
@@ -43,12 +43,13 @@ The undersigned, constituting all of the members of the Board of Directors of th
 
    The amendment carries the Corporation's original purposes forward in items (a) and (c). The Board adopts it by this written consent of all directors in office, which satisfies Section 22.107 of the Texas Business Organizations Code for a corporation without members.
 
-3. **Conforming the Bylaws.** RESOLVED, that the Bylaws are amended so that they follow the Certificate of Formation as amended, as follows:
+3. **Amendments to the Bylaws.** RESOLVED, that the Bylaws are amended as follows, so that they follow the Certificate of Formation as amended and require an audit only when the Corporation has outside income:
 
    - The paragraph of the Bylaws' purposes section that begins "The Corporation/Organization is established within the meaning of IRS Publication 557" and describes operating "exclusively for assist communities on dealing with their homelessness issues" is amended and restated to read: "The Corporation/Organization is organized and shall be operated exclusively for the charitable and educational purposes set forth in Article 5 of its Certificate of Formation, as amended from time to time, within the meaning of Section 501(c)(3) of the Internal Revenue Code of 1986, as amended (the 'Code'), or the corresponding section of any future federal tax code."
    - The sentence of the Bylaws reading "In the event of a direct conflict between the provisions of these Bylaws and the Articles of Incorporation of Corporation/Organization, it shall then be these Bylaws which shall be controlling" is amended to read: "In the event of a direct conflict between the provisions of these Bylaws and the Certificate of Formation of the Corporation/Organization, the Certificate of Formation shall be controlling."
+   - The sentence of the Bylaws reading "Such statements shall be audited by an independent certified public accountant, in conformity with generally accepted accounting standards" is amended to read: "In any fiscal year in which the Corporation/Organization receives more than $500 in revenue from sources other than its directors and officers, such statements shall be audited by an independent certified public accountant, in conformity with generally accepted accounting standards."
 
-   The Board adopts these amendments unanimously, which exceeds the two-thirds vote the Bylaws require to amend them. The Bylaws provide for amendments at a meeting, and they also permit any action that may be taken at a meeting to be taken by the written consent of all Board members; each director waives the meeting and the advance written notice of the proposed revisions that the Bylaws would otherwise require. These amendments take effect when the amendment of Article 5 takes effect.
+   The Board adopts these amendments unanimously, which exceeds the two-thirds vote the Bylaws require to amend them. The Bylaws provide for amendments at a meeting, and they also permit any action that may be taken at a meeting to be taken by the written consent of all Board members; each director waives the meeting and the advance written notice of the proposed revisions that the Bylaws would otherwise require. The first two amendments take effect when the amendment of Article 5 takes effect; the third takes effect when this consent is effective.
 
 4. **Filing.** RESOLVED, that Ricardo A. Vega Jr., as Chair of the Board and President, is authorized and directed to execute a Certificate of Amendment (Texas Secretary of State Form 424) reflecting the amendment in Resolution 2, to file it with the Texas Secretary of State together with the $25 filing fee, and to pay that fee from the Corporation's funds or be reimbursed for it. The amendment takes effect when the Secretary of State files the Certificate of Amendment.
 

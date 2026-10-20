@@ -12,7 +12,7 @@ export default function Footer() {
             </p>
             <p className="text-[#888888] text-sm leading-relaxed">
               We discover what people love, then use technology to help them do more of it,
-              and we share our methods, not just our tools, so anyone who wants to can bring others along.
+              and we empower them to be force multipliers by sharing our knowledge, skills, and tools, not just the solutions themselves.
             </p>
           </div>
 
